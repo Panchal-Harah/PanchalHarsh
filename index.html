@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo text-dark">MyWebsite</div>
+            <nav class="d-none d-md-flex">  
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-dark" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-primary d-none d-md-inline">Call to action</button>
+            <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero d-flex align-items-center" style="background: #f4f4f4; min-height: 400px;">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="hero-content text-center text-md-left">
+                <h1 class="display-4">The future of web design, today</h1>
+                <p class="lead">The future of web design, today</p>
+                <button class="btn btn-primary">Call to action</button>
+            </div>
+            <div class="hero-image mt-4 mt-md-0">
+                <img src="https://via.placeholder.com/400" alt="Hero Image" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section class="promo bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <p class="mb-0">Don't forget to grab this one, it's free!</p>
+            <button class="btn btn-primary">Call to action</button>
+        </div>
+    </section>
+
+    <section id="about" class="content py-5">
+        <div class="container text-center">
+            <h2>What we do</h2>
+            <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+            <ul class="list-unstyled">
+                <li>We recycle everything we see</li>
+                <li>We teach people how to reuse their stuff</li>
+                <li>We believe in human beings as problem solvers</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="content py-5">
+        <div class="container text-center">
+            <h2>Featured things</h2>
+            <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 1">
+                        <div class="card-body">
+                            <h3 class="card-title">The future of web design, today</h3>
+                            <p class="card-text">The future of web design, today</p>
+                            <button class="btn btn-primary">Call to action</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 2">
+                        <div class="card-body">
+                            <h3 class="card-title">The future of web design, today</h3>
+                            <p class="card-text">The future of web design, today</p>
+                            <button class="btn btn-primary">Call to action</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Service 3">
+                        <div class="card-body">
+                            <h3 class="card-title">The future of web design, today</h3>
+                            <p class="card-text">The future of web design, today</p>
+                            <button class="btn btn-primary">Call to action</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <p>Our mission is very important to the planet: we plant as many trees as possible. Can you figure out?</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>More information</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#home">Home</a></li>
+                        <li><a class="text-white" href="#about">About Us</a></li>
+                        <li><a class="text-white" href="#services">Shop</a></li>
+                        <li><a class="text-white" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Stay in contact</h5>
+                    <p>info@contact.com</p>
+                    <p>+34 654 654 654</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h5>Subscribe now to the newsletter</h5>
+                    <form>
+                        <input type="text" class="form-control mb-2" placeholder="Your name" required>
+                        <input type="email" class="form-control mb-2" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe!</button>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2022. All rights reserved. Privacy Policy | Cookies | Legal Advice | FAQ</p>
+                <p class="mb-0">Made by Ratrac</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #343a40;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #f0ad4e !important;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    min-height: 400px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.hero-content p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.promo {
+    background-color: #e9ecef;
+}
+
+.promo p {
+    margin-bottom: 0;
+    color: #333;
+}
+
+.content {
+    color: #333;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+footer p, footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #f0ad4e;
+}
+
+footer form input {
+    margin-bottom: 0.5rem;
+}
+
+footer form button {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}
